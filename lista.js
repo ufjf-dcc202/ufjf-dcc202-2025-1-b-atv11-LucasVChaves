@@ -13,5 +13,5 @@ export function adicionaNaLista(novoItem) {
 }
 
 export function removeDaLista(idx) {
-    lista.splice(idx);
+    lista.splice(idx - 1, 1);
 }
