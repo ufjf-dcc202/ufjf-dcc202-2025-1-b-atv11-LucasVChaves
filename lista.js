@@ -11,3 +11,7 @@ export function limpaLista() {
 export function adicionaNaLista(novoItem) {
     lista.push(novoItem);
 }
+
+export function removeDaLista(idx) {
+    lista.splice(idx);
+}
