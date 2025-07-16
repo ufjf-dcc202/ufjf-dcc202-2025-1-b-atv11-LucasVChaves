@@ -14,6 +14,7 @@ btnLimpar.addEventListener('click', () => {
 btnAdicionar.addEventListener('click', () => {
     const novoItem = pEntrada.textContent;
     adicionaNaLista(novoItem);
+    pEntrada.textContent = "";
     atualizarLista();
 });
 
